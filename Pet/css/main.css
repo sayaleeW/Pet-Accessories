@@ -1,0 +1,265 @@
+body{
+    background-color:#f1f1f1;
+    }
+.nav-form{
+    padding-top:1vh;
+}
+.navbar{
+    background-color: #993366;
+    color:#fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar a{
+color:#fff;
+}
+.box{
+height: 50vh;
+width:100%;
+background-color: #fff;
+margin-bottom: 5vh;
+position: relative;
+cursor: pointer;
+min-height: 280px;
+}
+.box-img{
+    height: 25vh;
+    min-height: 150px;
+   
+}
+.heading{
+    padding: 10px;
+    
+    font-size: 18px;
+    color: #16222d;
+    display: block;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.by{
+    color: #8190a1;
+    display: block;
+   padding-left: 10px;
+    font-size: 14px;
+}
+.details{
+position: absolute;
+bottom: 0;
+height: 5vh;
+
+
+}
+.number-users{
+   color: #8190a1; 
+   padding-left: 10px;
+   font-size: 15px;
+   float: left;
+}
+.box:hover{
+    box-shadow: 2px 2px 5px gray;
+    overflow: hidden;
+}
+.box-img:hover{
+    opacity: 0.8;
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+ 
+}
+.offer{
+    margin-top:150px;
+}
+.contact{
+    padding-top:50px;
+    height:300px;
+
+}
+.contact>.row{
+    box-shadow: 2px 2px 2px gray;
+}
+@media only screen and (max-width:1199px) and (min-width: 1000px){
+.header{
+    height:50vh;
+    padding-top:12vh;
+}
+.login-head{
+    height:350px;
+    border-radius: 5px;
+   
+    background-color: #fff;
+    border: 1px solid  #d0d0e1;
+   
+
+
+}
+.slider{
+    background-color: #fff;
+     height:350px;
+    border-radius: 2px;
+}
+.login-head-text{
+    background-color:  #993366;
+    font-family: "SegoeUI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding:0.5px;
+    color:#fff;
+   
+}
+.offers{
+
+height:350px;
+background-color: #fff;
+border-radius: 5px;
+margin-top:150px;
+margin-left:2ch;
+margin-right: 2ch;
+
+}
+.offers2{
+height:100px;
+color: #fff;
+border-radius: 5px;
+margin-top:5vh;
+margin-left:2ch;
+margin-right: 2ch;
+
+text-align: center
+
+}
+
+}
+@media only screen and (min-width:1200px) {
+.header{
+    height:50vh;
+    padding-top:12vh;
+}
+.login-head{
+    height:350px;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid  #d0d0e1;
+    box-shadow:2px 2px 5px  #d0d0e1
+
+
+}
+.slider{
+    background-color: #fff;
+     height:350px;
+    border-radius: 5px;
+}
+.login-head-text{
+    background-color:  #993366;
+    font-family: "SegoeUI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding:0.5px;
+    color:#fff;
+    margin-bottom:10px;
+}
+.offers{
+
+height:350px;
+background-color: #fff;
+border-radius: 5px;
+margin-top:150px;
+margin-left:2ch;
+margin-right: 2ch;
+
+}
+.offers2{
+height:100px;
+color: #fff;
+border-radius: 5px;
+margin-top:5vh;
+margin-left:2ch;
+margin-right: 2ch;
+
+text-align: center
+
+}
+}
+@media only screen and (max-width:999px) and (min-width: 768px){
+.header{
+    height:50vh;
+    padding-top:12vh;
+}
+.login-head{
+    height:360px;
+    border-radius: 5px;
+ 
+    background-color: #fff;
+    border: 1px solid  #d0d0e1;
+    box-shadow:2px 2px 5px  #d0d0e1
+
+
+}
+.slider{
+    background-color: #fff;
+     height:360px;
+    border-radius: 5px;
+}
+.login-head-text{
+    background-color:  #993366;
+    font-family: "SegoeUI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding:0.5px;
+    color:#fff;
+    font-size: 8px;
+    
+}
+.offers{
+
+height:300px;
+background-color: #fff;
+border-radius: 5px;
+margin-top:150px;
+margin-left:2ch;
+margin-right: 2ch;
+
+}
+.offers2{
+height:100px;
+color: #fff;
+border-radius: 5px;
+margin-top:5vh;
+margin-left:2ch;
+margin-right: 2ch;
+
+text-align: center
+}
+}
+@media only screen and (max-width:767px) {
+.login-head{
+    display: none;
+}
+
+
+
+.offers{
+
+height:150px;
+background-color: #fff;
+border-radius: 5px;
+margin-top:10vh;
+margin-left:2ch;
+margin-right: 2ch;
+
+}
+.offers2{
+height:100px;
+color: #fff;
+border-radius: 5px;
+margin-top:5vh;
+margin-left:2ch;
+margin-right: 2ch;
+
+text-align: center
+}
+
+
+}
